@@ -8,9 +8,7 @@ body{
     left: 0;
     bottom: 0;
     padding: 12px;
-    width: 300px;
-    height: 100%;
-      
+    width: 300px;   
     }
 
 .sidebar_navigation{
@@ -39,6 +37,46 @@ body{
 }
 
 .sidebar nav ul li a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+}
+
+
+
+
+
+
+.sidebar2{
+    position: relative;
+    top: 155px;
+    left: 0;
+    right: 300px;
+    bottom: 300;
+    padding: 12px;
+    width: 300px;
+    height: 100px;
+      
+    }
+
+.sidebar_navigation2{
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 128px 0 0 16px;
+}
+
+.sidebar2 nav ul{
+    margin-top: 2px;
+    padding: 0px 20px 10px 20px;
+}
+
+.sidebar2 nav ul li{
+    padding: 10px 0;
+}
+
+.sidebar2 nav ul li a{
     color: #b3b3b3;
     text-decoration: none;
     font-weight: 600;
